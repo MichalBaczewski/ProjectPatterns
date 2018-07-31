@@ -5,7 +5,7 @@ import java.util.List;
 
 public class AmericanVehicleBuilder implements VehicleBuilder {
 
-    private List<Wheel > wheels = new ArrayList<>();
+    private List<Wheel> wheels = new ArrayList<>();
     private int tankSize;
 
     public VehicleBuilder addWheel() {
