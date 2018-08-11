@@ -1,7 +1,6 @@
 package com.baczewski.patterns.behavior.command;
 
-public class CommandLight {
-
+class CommandLight {
     public static void main(String[] args) {
         Light light = new Light();
         RemoteController remoteController = new RemoteController(light);
@@ -11,5 +10,4 @@ public class CommandLight {
         remoteController.clickButton1();
         remoteController.clickButton2();
     }
-
 }

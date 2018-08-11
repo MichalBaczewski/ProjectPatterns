@@ -1,7 +1,6 @@
 package com.baczewski.patterns.behavior.command;
 
-public class RemoteController {
-
+class RemoteController {
     private Command button1;
     private Command button2;
 
@@ -24,5 +23,4 @@ public class RemoteController {
     public void clickButton2(){
         button2.execute();
     }
-
 }

@@ -1,7 +1,6 @@
 package com.baczewski.patterns.behavior.command;
 
-public class TurnOnLight implements Command {
-
+class TurnOnLight implements Command{
     private final Light light;
 
     TurnOnLight(Light light) {
@@ -13,5 +12,4 @@ public class TurnOnLight implements Command {
         System.out.println("turn on light");
         light.turnOn();
     }
-
 }

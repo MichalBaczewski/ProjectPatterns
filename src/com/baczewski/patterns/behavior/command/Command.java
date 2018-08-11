@@ -1,7 +1,5 @@
 package com.baczewski.patterns.behavior.command;
 
-public interface Command {
-
+interface Command {
     void execute();
-
 }

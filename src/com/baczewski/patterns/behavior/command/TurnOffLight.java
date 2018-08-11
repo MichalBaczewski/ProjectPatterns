@@ -1,7 +1,6 @@
 package com.baczewski.patterns.behavior.command;
 
-public class TurnOffLight implements Command {
-
+class TurnOffLight implements Command {
     private final Light light;
 
     TurnOffLight(Light light) {
@@ -14,5 +13,4 @@ public class TurnOffLight implements Command {
 
         light.turnOff();
     }
-
 }

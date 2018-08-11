@@ -1,7 +1,6 @@
 package com.baczewski.patterns.behavior.command;
 
-public class Light {
-
+class Light {
     private boolean flash = false;
 
     public void turnOn(){
